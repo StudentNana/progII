@@ -17,8 +17,15 @@ import javax.sound.sampled.LineUnavailableException;
  */
 public class Sinusgenerator {
     /** die Tonleiter (C, D, E, F, G, A, H, C²*/
-	    private static double frequencies[] = {261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 493.88, 523.25};
+//	    private static double frequencies[] = {261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 493.88, 523.25};
             public static final double NOTE_C = 261.63;
+            public static final double NOTE_D = 293.66;
+            public static final double NOTE_E = 329.63;
+            public static final double NOTE_F = 349.23;
+            public static final double NOTE_G = 392.00;
+            public static final double NOTE_A = 440.00;
+            public static final double NOTE_H = 493.88;
+            public static final double NOTE_C2 = 523.25;
 	   
 	     public static byte[] getSinusTone(double frequency, AudioFormat af) {
 	         byte sample_size = (byte) (af.getSampleSizeInBits() / 8);
@@ -44,17 +51,8 @@ public class Sinusgenerator {
 	       
 	         try {
 	             Clip c = (Clip) AudioSystem.getLine(new Line.Info(Clip.class));
-	 
 	             c.open(af, data, 0, data.length);
 	             c.start();
-//	             c.loop(1000);
-	             
-//	             while(c.isRunning()) {
-//	                 try {
-//	                     Thread.sleep(50);
-//	                 } catch (Exception ex) {}
-//	             }
-	             
 	         } catch (LineUnavailableException ex) {
 	             ex.printStackTrace();
 	         }

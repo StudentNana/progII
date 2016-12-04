@@ -12,13 +12,13 @@
             <Image url="@xylophone.png" />
          </image>
       </ImageView>
-      <Button fx:id="noteCstart" layoutX="189.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleButtonAction" opacity="0.0" prefHeight="152.0" prefWidth="29.0" />
-      <Button fx:id="noteD" layoutX="233.0" layoutY="159.0" mnemonicParsing="false" opacity="0.0" prefHeight="144.0" prefWidth="30.0" />
-      <Button fx:id="noteE" layoutX="271.0" layoutY="171.0" mnemonicParsing="false" opacity="0.0" prefHeight="134.0" prefWidth="30.0" />
-      <Button fx:id="noteF" layoutX="319.0" layoutY="176.0" mnemonicParsing="false" opacity="0.0" prefHeight="126.0" prefWidth="30.0" />
-      <Button fx:id="noteG" layoutX="366.0" layoutY="178.0" mnemonicParsing="false" opacity="0.0" prefHeight="126.0" prefWidth="30.0" />
-      <Button fx:id="noteA" layoutX="407.0" layoutY="185.0" mnemonicParsing="false" opacity="0.0" prefHeight="116.0" prefWidth="30.0" />
-      <Button fx:id="noteB" layoutX="452.0" layoutY="190.0" mnemonicParsing="false" opacity="0.0" prefHeight="109.0" prefWidth="30.0" />
-      <Button fx:id="noteCend" layoutX="490.0" layoutY="191.0" mnemonicParsing="false" opacity="0.0" prefHeight="109.0" prefWidth="30.0" />
+      <Button fx:id="noteCstart" layoutX="189.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleButtonAction1" opacity="0.0" prefHeight="152.0" prefWidth="29.0" />
+      <Button fx:id="noteD" layoutX="233.0" layoutY="159.0" mnemonicParsing="false" onAction="#handleButtonAction2" opacity="0.0" prefHeight="144.0" prefWidth="30.0" />
+      <Button fx:id="noteE" layoutX="271.0" layoutY="171.0" mnemonicParsing="false" onAction="#handleButtonAction3" opacity="0.0" prefHeight="134.0" prefWidth="30.0" />
+      <Button fx:id="noteF" layoutX="319.0" layoutY="176.0" mnemonicParsing="false" onAction="#handleButtonAction4" opacity="0.0" prefHeight="126.0" prefWidth="30.0" />
+      <Button fx:id="noteG" layoutX="366.0" layoutY="178.0" mnemonicParsing="false" onAction="#handleButtonAction5" opacity="0.0" prefHeight="126.0" prefWidth="30.0" />
+      <Button fx:id="noteA" layoutX="407.0" layoutY="185.0" mnemonicParsing="false" onAction="#handleButtonAction6" opacity="0.0" prefHeight="116.0" prefWidth="30.0" />
+      <Button fx:id="noteB" layoutX="452.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleButtonAction7" opacity="0.0" prefHeight="109.0" prefWidth="30.0" />
+      <Button fx:id="noteCend" layoutX="490.0" layoutY="191.0" mnemonicParsing="false" onAction="#handleButtonAction8" opacity="0.0" prefHeight="109.0" prefWidth="30.0" />
    </children>
 </AnchorPane>

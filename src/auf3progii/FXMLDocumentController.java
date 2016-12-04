@@ -43,9 +43,47 @@ public class FXMLDocumentController implements Initializable {
     private Button noteCend;
     
     @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
+    private void handleButtonAction1(ActionEvent event) {
+//        System.out.println("You clicked me!");
         Sinusgenerator.play(Sinusgenerator.NOTE_C);
+    }
+    
+    @FXML
+    private void handleButtonAction2(ActionEvent event) {
+//        System.out.println("You clicked me!");
+        Sinusgenerator.play(Sinusgenerator.NOTE_D);
+    }
+    @FXML
+    private void handleButtonAction3(ActionEvent event) {
+//        System.out.println("You clicked me!");
+        Sinusgenerator.play(Sinusgenerator.NOTE_E);
+    }
+    @FXML
+    private void handleButtonAction4(ActionEvent event) {
+//        System.out.println("You clicked me!");
+        Sinusgenerator.play(Sinusgenerator.NOTE_F);
+    }
+    @FXML
+    private void handleButtonAction5(ActionEvent event) {
+//        System.out.println("You clicked me!");
+        Sinusgenerator.play(Sinusgenerator.NOTE_G);
+    }
+    @FXML
+    private void handleButtonAction6(ActionEvent event) {
+        System.out.println("You clicked me!");
+        Sinusgenerator.play(Sinusgenerator.NOTE_A);
+    }
+    
+    @FXML
+    private void handleButtonAction7(ActionEvent event) {
+//        System.out.println("You clicked me!");
+        Sinusgenerator.play(Sinusgenerator.NOTE_H);
+    }
+    
+    @FXML
+    private void handleButtonAction8(ActionEvent event) {
+//        System.out.println("You clicked me!");
+        Sinusgenerator.play(Sinusgenerator.NOTE_C2);
     }
     
     @Override
